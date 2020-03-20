@@ -1,0 +1,29 @@
+.each-slide {
+  display: flex;
+}
+
+.each-slide .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-slide .image-container img {
+  width: 100%;
+}
+
+.each-slide h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background:var( --lightBlue);
+  color:var(--mainWhite)
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color:var(--mainDark)
+}
